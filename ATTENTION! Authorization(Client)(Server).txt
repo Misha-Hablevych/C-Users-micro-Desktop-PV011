@@ -1,0 +1,11 @@
+Servers
+1)
+log - 1
+pass - 1
+
+
+
+Clients
+1)
+log - user
+pass - user

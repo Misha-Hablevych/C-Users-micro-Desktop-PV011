@@ -1,0 +1,16 @@
+Поміняти шлях в : 
+TestServer - App.config 
+
+а саме :
+
+<conectionStrings>
+...
+connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=(тут вказати шлях).mdf;Integrated Security=True;Connect Timeout=30"
+
+шлях вказується (C:.../D:.../E:.../F:..., ...) наприклад:
+connectionString="Data Source=(LocalDB)\MSSQLLocalDB;
+AttachDbFilename= (це шлях) C:\Users\micro\Desktop\PV011CW\TestServer\bin\TestSystemDB .mdf;
+Integrated Security=True;Connect Timeout=30"
+
+Якщо ярлички не запускаються необхідно відкрити солюшн, а саме 
+...\PV011\PV011CW\PV011CW.sln і поміняти там шлях і зкомпілювати, після чого можна відкривати ярлички.
